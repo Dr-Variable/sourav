@@ -1,15 +1,60 @@
-<!DOCTYPE html>
-<html><head><meta charset="UTF-8"><title>Sourav | Academic Website</title></head>
-<body style="font-family:Arial;margin:40px;text-align:center;">
-<h1>Welcome to Sourav's Academic Page</h1>
-<p>Select a section:</p>
-<ul style="list-style:none;font-size:20px;line-height:2;">
-<li><a href="about.html">About</a></li>
-<li><a href="research.html">Research</a></li>
-<li><a href="projects.html">Projects</a></li>
-<li><a href="publications.html">Publications</a></li>
-<li><a href="teaching.html">Teaching</a></li>
-<li><a href="cv.html">CV</a></li>
-<li><a href="outside_academia.html">Outside Academia</a></li>
-</ul>
-</body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sourav Dutta — Home</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    *{box-sizing:border-box}
+    body{font-family:Georgia, serif;margin:0;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:#222}
+    .container{max-width:980px;margin:28px auto;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.25)}
+    header{padding:48px;text-align:center;background:linear-gradient(135deg,#f093fb 0%,#f5576c 100%);color:white}
+    .profile-pic{
+      width:200px;height:200px;border-radius:50%;overflow:hidden;margin:0 auto 20px;border:8px solid rgba(255,255,255,.9);box-shadow:0 10px 30px rgba(0,0,0,.2)
+    }
+    .profile-pic img{width:100%;height:100%;object-fit:cover;display:block}
+    h1{font-size:2.6rem;margin:6px 0}
+    .subtitle{opacity:.95;font-style:italic}
+    .content{padding:36px}
+    .nav-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:18px;margin-top:18px}
+    .card{background:linear-gradient(135deg,#667eea,#764ba2);color:white;padding:18px;border-radius:12px;text-decoration:none;display:block;text-align:center}
+    .meme{width:60px;height:60px;display:inline-block;vertical-align:middle;margin-right:8px}
+    footer{background:#f8f9fa;padding:18px;text-align:center;font-size:.9rem;color:#666}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="profile-pic"><img src="https://media.giphy.com/media/3orieKZ9ax8nsJnSs8/giphy.gif" alt="Simpsons GIF"></div>
+      <h1>Sourav Dutta</h1>
+      <div class="subtitle">PhD Candidate, [Your Department], [Your University] • Coffee Enthusiast • Professional Overthinker</div>
+    </header>
+
+    <div class="content">
+      <h2>About me</h2>
+      <p>Hello — I'm <strong>Sourav Dutta</strong>. I'm a PhD candidate exploring [your research area]. This site collects my publications, CV, teaching materials, and a few things I find funny.</p>
+
+      <div class="nav-grid" role="navigation">
+        <a class="card" href="publications.html"><img class="meme" src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" alt="Rick & Morty GIF"/>📚 Publications</a>
+        <a class="card" href="cv.html"><img class="meme" src="https://i.imgur.com/8Km9tLL.png" alt="CV meme"/>📄 CV</a>
+        <a class="card" href="teaching.html"><img class="meme" src="https://media.giphy.com/media/3ohzdIuqJoo8QdKlnW/giphy.gif" alt="Family Guy GIF"/>🎓 Teaching</a>
+        <a class="card" href="gallery.html"><img class="meme" src="https://media.giphy.com/media/3orieKZ9ax8nsJnSs8/giphy.gif" alt="Gallery GIF"/>📷 Gallery</a>
+        <a class="card" href="spiritual-journey.html"><img class="meme" src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" alt="Spiritual GIF"/>🧘 Spiritual Journey</a>
+      </div>
+
+      <section style="margin-top:20px">
+        <h3>Quick links</h3>
+        <ul>
+          <li><a href="publications.html">Selected publications</a></li>
+          <li><a href="cv.html">Download CV (placeholder)</a></li>
+          <li><a href="teaching.html">Teaching philosophy and courses</a></li>
+        </ul>
+      </section>
+    </div>
+
+    <footer>
+      © 2025 Sourav Dutta • Contact: sourav@example.com
+    </footer>
+  </div>
+</body>
+</html>

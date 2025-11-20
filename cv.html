@@ -1,7 +1,58 @@
-<!DOCTYPE html>
-<html><head><meta charset="UTF-8"><title>Curriculum Vitae</title></head>
-<body style="font-family:Arial;margin:40px;">
-<h1>Curriculum Vitae</h1>
-<p>Upload and link your CV here.</p>
-<p><a href="index.html">← Back to Home</a></p>
-</body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sourav Dutta — CV</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <style>
+    body{font-family:Georgia, serif;margin:0;background:linear-gradient(135deg,#667eea,#764ba2);}
+    .wrap{max-width:1000px;margin:28px auto;background:#fff;border-radius:12px;padding:24px;box-shadow:0 20px 40px rgba(0,0,0,.18)}
+    header{display:flex;gap:18px;align-items:center}
+    .avatar{width:120px;height:120px;border-radius:12px;overflow:hidden}
+    .avatar img{width:100%;height:100%;object-fit:cover}
+    .contact{margin-left:auto;text-align:right;color:#666}
+    .section{margin-top:18px}
+    .item{background:#f8f9fa;padding:12px;border-radius:8px;margin-top:8px;border-left:4px solid #667eea}
+    .download{display:inline-block;padding:8px 12px;background:#28a745;color:#fff;border-radius:16px;text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div style="flex:1">
+        <h1>📄 Sourav Dutta</h1>
+        <div style="opacity:.85">PhD Candidate, [Your Department], [Your University]</div>
+      </div>
+      <div class="contact">
+        <div>sourav@example.com</div>
+        <a class="download" href="#" onclick="alert('Replace with a real CV PDF link');return false;">⬇ Download CV</a>
+      </div>
+    </header>
+
+    <div class="section">
+      <h2>Education</h2>
+      <div class="item"><strong>Ph.D. in [Your Field]</strong><div>Prestigious University — 2021–Present</div></div>
+      <div class="item"><strong>M.S. in [Related Field]</strong><div>Another Great University — 2019–2021</div></div>
+      <div class="item"><strong>B.S. in [Undergraduate Major]</strong><div>College — 2015–2019</div></div>
+    </div>
+
+    <div class="section">
+      <h2>Research</h2>
+      <div class="item">Graduate Research Assistant — 2021–Present. Conducted research, wrote code, developed experiments.</div>
+      <div class="item">Research Intern — Summer 2020. Industry internship experience.</div>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">
+        <span style="background:#667eea;color:#fff;padding:6px 10px;border-radius:18px">Python</span>
+        <span style="background:#667eea;color:#fff;padding:6px 10px;border-radius:18px">LaTeX</span>
+        <span style="background:#667eea;color:#fff;padding:6px 10px;border-radius:18px">Git</span>
+        <span style="background:#667eea;color:#fff;padding:6px 10px;border-radius:18px">Machine Learning</span>
+      </div>
+    </div>
+
+    <div style="margin-top:18px;color:#666;font-size:.9rem">Generated with the Academic Website Generator — replace placeholders with your content.</div>
+  </div>
+</body>
+</html>
