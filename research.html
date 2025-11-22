@@ -12,7 +12,7 @@
     h1{font-size:2.4rem;margin:0}
     .subtitle{opacity:.95;font-style:italic;margin-top:6px}
     .content{padding:36px}
-    h2{margin-top:0}
+    h2{margin-top:32px}
     .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
     .chip{background:linear-gradient(135deg,#667eea,#764ba2);color:white;padding:8px 14px;border-radius:14px;font-size:.95rem}
     .proj{background:#f8f9fa;border-left:5px solid #667eea;padding:16px;border-radius:8px;margin-bottom:16px}
@@ -20,71 +20,75 @@
     .meta{font-size:.9rem;color:#555;margin-bottom:6px}
     .small{font-size:.9rem;color:#444}
     footer{text-align:center;padding:18px;background:#f8f9fa;color:#666;margin-top:20px;font-size:.9rem}
+    .pub{background:#f8f9fa;padding:16px;border-left:5px solid #764ba2;border-radius:8px;margin-bottom:16px}
+    .pub h3{margin-top:0}
   </style>
 </head>
 <body>
   <div class="container">
+    
     <header>
       <h1>Research</h1>
     </header>
 
-    <div class="item">
-  <p>My primary research interests lie in quantum information and quantum computing. During my Ph.D., I focus on developing noise-adaptive quantum error-correcting codes and related techniques. I am also interested in surface codes, the X-cube model, non-stabilizer codes, and fault tolerance. Beyond QEC, I enjoy exploring quantum key distribution, quantum chaos, and quantum algorithms.</p>
+    <div class="content">
 
-  <p>If our interests align and you’d like to connect, feel free to reach out by email. 🙂</p>
-</div>
+      <!-- Research Interests -->
+      <h2>Research Interests</h2>
+      <p>My primary research interests lie in quantum information and quantum computing. During my Ph.D., I focus on developing noise-adaptive quantum error-correcting codes and related techniques. I am also interested in surface codes, the X-cube model, non-stabilizer codes, and fault tolerance. Beyond QEC, I enjoy exploring quantum key distribution, quantum chaos, and quantum algorithms.</p>
 
-      
-    <div class="section">
+      <p>If our interests align and you’d like to connect, feel free to reach out by email. 🙂</p>
+
+      <!-- Publications (moved inside content for alignment) -->
       <h2>Publications</h2>
+
       <div class="pub">
-        <h3><a class="pub-link" href="https://link.aps.org/doi/10.1103/PhysRevA.111.032438" target="_blank" rel="noopener">Noise-adapted qudit codes for amplitude-damping noise</a></h3>
+        <h3><a href="https://link.aps.org/doi/10.1103/PhysRevA.111.032438" target="_blank">Noise-adapted qudit codes for amplitude-damping noise</a></h3>
         <p class="meta"><strong>Authors:</strong> Sourav Dutta, Debjyoti Biswas, Prabha Mandayam</p>
-        <p class="doi"><strong>Published / DOI:</strong> Phys. Rev. A 111, 032438 (2025). DOI: <a href="https://doi.org/10.1103/PhysRevA.111.032438" target="_blank" rel="noopener">10.1103/PhysRevA.111.032438</a></p>
+        <p><strong>Published:</strong> Phys. Rev. A 111, 032438 (2025).</p>
       </div>
 
       <div class="pub">
-        <h3><a class="pub-link" href="https://arxiv.org/abs/2010.07089" target="_blank" rel="noopener">Late time dynamics in SUSY saddle-dominated scrambling through higher-point OTOC</a></h3>
+        <h3><a href="https://arxiv.org/abs/2010.07089" target="_blank">Late time dynamics in SUSY saddle-dominated scrambling through higher-point OTOC</a></h3>
         <p class="meta"><strong>Authors:</strong> Rathindra Nath Das, Sourav Dutta, Archana Maji</p>
-        <p class="doi"><strong>Published / DOI:</strong> Phys. Scr. 99 085246 (2024). DOI: <a href="https://iopscience.iop.org/article/10.1088/1402-4896/ad629d" target="_blank" rel="noopener">10.1088/1402-4896/ad629d</a></p>
+        <p><strong>Published:</strong> Phys. Scr. 99 085246 (2024).</p>
       </div>
 
       <div class="pub">
-        <h3><a class="pub-link" href="https://arxiv.org/abs/2410.00155" target="_blank" rel="noopener">Smallest quantum codes for amplitude damping noise</a></h3>
+        <h3><a href="https://arxiv.org/abs/2410.00155" target="_blank">Smallest quantum codes for amplitude damping noise</a></h3>
         <p class="meta"><strong>Authors:</strong> S. Dutta, A. Jain, P. Mandayam</p>
-        <p class="doi"><strong>arXiv / DOI:</strong> arXiv:2410.00155 — <a href="https://doi.org/10.48550/ARXIV.2410.00155" target="_blank" rel="noopener">10.48550/ARXIV.2410.00155</a></p>
+        <p><strong>arXiv:</strong> 2410.00155</p>
       </div>
 
       <div class="pub">
-        <h3><a class="pub-link" href="https://doi.org/10.1109/COMSNETS59351.2024.10426927" target="_blank" rel="noopener">A Modified Order-Finding Algorithm for NISQ Devices</a></h3>
+        <h3><a href="https://doi.org/10.1109/COMSNETS59351.2024.10426927" target="_blank">A Modified Order-Finding Algorithm for NISQ Devices</a></h3>
         <p class="meta"><strong>Authors:</strong> Debjyoti Biswas, Sourav Dutta, Shrikant Utagi, Prabha Mandayam</p>
-        <p class="doi"><strong>Conference / DOI:</strong> COMSNETS 2024 — DOI: <a href="https://doi.org/10.1109/COMSNETS59351.2024.10426927" target="_blank" rel="noopener">10.1109/COMSNETS59351.2024.10426927</a></p>
-      </div>
-    </div>
-      <h2 style="margin-top:32px">Other Research Projects</h2>
-
-      <div class="proj">
-        <h3>B.Sc. project: Understanding the Relation Between Coherence and Polarization: A Study of Random Electro-Magnetic Beams</h3>
-        <div class="meta">Supervisor: <a href="https://www.presiuniv.ac.in/web/staff.php?staffid=399" target="_blank">Dr. Sobhan Kumar Sounda</a></div>
-        <p class="small"></p>
+        <p><strong>Conference:</strong> COMSNETS 2024</p>
       </div>
 
+      <!-- Projects -->
+      <h2>Other Research Projects</h2>
+
       <div class="proj">
-        <h3>M.Sc. project: Testing the number-phase uncertainty relation in a differential-phase-shifted QKD protocol.</h3>
-        <div class="meta">Supervisor: <a href="https://scholar.google.co.in/citations?user=kHDUY0QAAAAJ&hl=en" target="_blank">Dr. Prabha Mandayam</a></div>
-        <p class="small"></p>
+        <h3>B.Sc. project: Understanding the Relation Between Coherence and Polarization</h3>
+        <div class="meta">Supervisor: Dr. Sobhan Kumar Sounda</div>
       </div>
 
       <div class="proj">
-        <h3>M.Sc. project: Testing the number-phase uncertainty relation in a differential-phase-shifted QKD protocol.</h3>
-        <div class="meta">Supervisor: <a href="https://scholar.google.co.in/citations?user=kHDUY0QAAAAJ&hl=en" target="_blank">Dr. Prabha Mandayam</a></div>
-        <p class="small"></p>
+        <h3>M.Sc. project: Testing the number–phase uncertainty relation in a DPS-QKD protocol</h3>
+        <div class="meta">Supervisor: Dr. Prabha Mandayam</div>
       </div>
-    </div>
+
+      <h3>Summer project: Reflection of Topology on OTOC for Different 2D Billiards</h3>
+        <div class="meta">Supervisor: Dr. Sudhir Ranjan Jain</div>
+      </div>
+
+    </div> <!-- end content -->
 
     <footer>
       © 2025 Sourav Dutta
     </footer>
+
   </div>
 </body>
 </html>
